@@ -428,7 +428,6 @@ static void _LCD_DrawLine(u16 x1, u16 y1, u16 x2, u16 y2, u16 c)
     delta_x=x2-x1;
     delta_y=y2-y1;
     uRow=x1;
-    uCol=y1;
     if(delta_x>0)incx=1;
     else if(delta_x==0)incx=0;
     else {incx=-1;delta_x=-delta_x;}
